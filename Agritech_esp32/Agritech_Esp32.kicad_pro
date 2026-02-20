@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.4,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -226,7 +226,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1879600|596900|c17f8322-4142-416a-b4bd-8f7e5b53a4d9|00000000-0000-0000-0000-000000000000|/69129163-6e8b-411c-8f0b-0512ceccedf9|/69129163-6e8b-411c-8f0b-0512ceccedf9|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -450,7 +455,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "esp32 dev kit.kicad_pro",
+    "filename": "Agritech_Esp32.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -486,8 +491,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "esp_gerber/",
-      "pos_files": "esp_gerber/",
+      "plot": "../Agritech_esp_gerber/",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -567,12 +572,6 @@
           "show": false
         },
         {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -626,6 +625,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 1,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -640,7 +647,7 @@
   },
   "sheets": [
     [
-      "8db7e50c-a4be-43c1-89a3-9670ffb8084f",
+      "69129163-6e8b-411c-8f0b-0512ceccedf9",
       "Root"
     ]
   ],
